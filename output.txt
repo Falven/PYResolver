@@ -1,0 +1,981 @@
+C:\Users\falven\AppData\Local\Programs\Python\Python35\python.exe C:/Users/falven/OneDrive/Projects/Python/DNSResolver/myresolver.py C:\Users\falven\OneDrive\Projects\Python\DNSResolver\commandfile.txt
+COMMAND:  print cache
+
+Answer Cache Contents:
+
+Referral Cache Contents:
+
+. :
+NS :  ['j.root-servers.net.', 'd.root-servers.net.', 'e.root-servers.net.', 'f.root-servers.net.', 'l.root-servers.net.', 'a.root-servers.net.', 'b.root-servers.net.', 'i.root-servers.net.', 'm.root-servers.net.', 'c.root-servers.net.', 'g.root-servers.net.', 'k.root-servers.net.', 'h.root-servers.net.']
+
+f.root-servers.net. :
+A :  ['192.5.5.241']
+
+a.root-servers.net. :
+A :  ['198.41.0.4']
+
+j.root-servers.net. :
+A :  ['192.58.128.30']
+
+e.root-servers.net. :
+A :  ['192.203.230.10']
+
+i.root-servers.net. :
+A :  ['192.36.148.17']
+
+d.root-servers.net. :
+A :  ['199.7.91.13']
+
+m.root-servers.net. :
+A :  ['202.12.27.33']
+
+h.root-servers.net. :
+A :  ['128.63.2.53']
+
+c.root-servers.net. :
+A :  ['192.33.4.12']
+
+l.root-servers.net. :
+A :  ['199.7.83.42']
+
+g.root-servers.net. :
+A :  ['192.112.36.4']
+
+b.root-servers.net. :
+A :  ['192.228.79.201']
+
+k.root-servers.net. :
+A :  ['193.0.14.129']
+
+***************************************************
+
+COMMAND:  resolve yahoo.com A
+
+*** NS records fetched from cache: ['j.root-servers.net.', 'd.root-servers.net.', 'e.root-servers.net.', 'f.root-servers.net.', 'l.root-servers.net.', 'a.root-servers.net.', 'b.root-servers.net.', 'i.root-servers.net.', 'm.root-servers.net.', 'c.root-servers.net.', 'g.root-servers.net.', 'k.root-servers.net.', 'h.root-servers.net.']
+*** Nameserver 'j.root-servers.net.' has IP addresses ['192.58.128.30']:
+*** QUERY name server 'j.root-servers.net.' at 192.58.128.30 for 'yahoo.com' 'A'
+*** Response received with latency:  0.07119107246398926
+id 34794
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 1472
+;QUESTION
+yahoo.com. IN A
+;ANSWER
+;AUTHORITY
+com. 172800 IN NS a.gtld-servers.net.
+com. 172800 IN NS b.gtld-servers.net.
+com. 172800 IN NS c.gtld-servers.net.
+com. 172800 IN NS d.gtld-servers.net.
+com. 172800 IN NS e.gtld-servers.net.
+com. 172800 IN NS f.gtld-servers.net.
+com. 172800 IN NS g.gtld-servers.net.
+com. 172800 IN NS h.gtld-servers.net.
+com. 172800 IN NS i.gtld-servers.net.
+com. 172800 IN NS j.gtld-servers.net.
+com. 172800 IN NS k.gtld-servers.net.
+com. 172800 IN NS l.gtld-servers.net.
+com. 172800 IN NS m.gtld-servers.net.
+com. 86400 IN DS 30909 8 2 e2d3c916f6deeac73294e8268fb5885044a833fc5459588f4a9184cfc41a5766
+com. 86400 IN RRSIG DS 8 1 86400 20151202170000 20151122160000 62530 . gdPYqMNl4/FJaKll6hr8HSryw3x+VHIi NB5ko6Hm2Q/WBMv7QE0zFpQEDw/4au3J DkG2+GsEBNvzKDHRuKmrX/qBGnZfg+PS yCF1D0G3QBX1nxTxqD1TOLnYaK2yNCLC JXvOz7Nxtj/zRoda2lqfHlhtwH/yzHb1 YBqsFap4mg8=
+;ADDITIONAL
+a.gtld-servers.net. 172800 IN A 192.5.6.30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+c.gtld-servers.net. 172800 IN A 192.26.92.30
+d.gtld-servers.net. 172800 IN A 192.31.80.30
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+f.gtld-servers.net. 172800 IN A 192.35.51.30
+g.gtld-servers.net. 172800 IN A 192.42.93.30
+h.gtld-servers.net. 172800 IN A 192.54.112.30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+k.gtld-servers.net. 172800 IN A 192.52.178.30
+l.gtld-servers.net. 172800 IN A 192.41.162.30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+a.gtld-servers.net. 172800 IN AAAA 2001:503:a83e::2:30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+
+*** Start next iteration with domain 'com.' nameservers ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'yahoo.com' 'A'
+*** Response received with latency:  0.08623147010803223
+id 22457
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+yahoo.com. IN A
+;ANSWER
+;AUTHORITY
+yahoo.com. 172800 IN NS ns1.yahoo.com.
+yahoo.com. 172800 IN NS ns5.yahoo.com.
+yahoo.com. 172800 IN NS ns2.yahoo.com.
+yahoo.com. 172800 IN NS ns3.yahoo.com.
+yahoo.com. 172800 IN NS ns4.yahoo.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - ck0q1gin43n1arrc9osm6qpqr81h5m9a NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128055322 20151121044322 51797 com. SRvG6Nj0BcSLMGN23BE97NyNZwFibaeE StAU/ZkOgv87IQWSWbDwkpA0oetpJ9Rk Ss20z/0JNMKwbLsZSkPGsgSf1eBYTEXz ZM9Gp7u0pQ7fR7p8o6ZJt/lcb0c0glZR VwbmGEBulL4wkpQgKt7A2tc04LR1p5jx 59oS0yl9rh8=
+GPIKO73HP848M82J273ICA821U4DRH92.com. 86400 IN NSEC3 1 1 0 - gpipcmmd0h5prlqhl08eaica0cbfsump NS DS RRSIG
+GPIKO73HP848M82J273ICA821U4DRH92.com. 86400 IN RRSIG NSEC3 8 2 86400 20151126211213 20151119200213 51797 com. MOqvZv9Ck9H/E5RAyeFV88DE69tADGea M33q3pVfSUx4XpWc9scIwSCcwyYv4cCh d5moWCVprnrqbJmLSkyRQHzJ/PDY4qP9 M1Obc2vNHu6g5dp+agxhVcjcfL4+7X/R SummBAq3ot2Djqqp/2eEtKZMs2LqPo25 j0mXiaXRKqg=
+;ADDITIONAL
+ns1.yahoo.com. 172800 IN AAAA 2001:4998:130::1001
+ns1.yahoo.com. 172800 IN A 68.180.131.16
+ns5.yahoo.com. 172800 IN A 119.160.247.124
+ns2.yahoo.com. 172800 IN AAAA 2001:4998:140::1002
+ns2.yahoo.com. 172800 IN A 68.142.255.16
+ns3.yahoo.com. 172800 IN A 203.84.221.53
+ns3.yahoo.com. 172800 IN AAAA 2406:8600:b8:fe03::1003
+ns4.yahoo.com. 172800 IN A 98.138.11.157
+
+*** Start next iteration with domain 'yahoo.com.' nameservers ['ns1.yahoo.com.', 'ns5.yahoo.com.', 'ns2.yahoo.com.', 'ns3.yahoo.com.', 'ns4.yahoo.com.']
+*** Nameserver 'ns1.yahoo.com.' has IP addresses ['68.180.131.16']:
+*** QUERY name server 'ns1.yahoo.com.' at 68.180.131.16 for 'yahoo.com' 'A'
+*** Response received with latency:  0.0381009578704834
+id 64318
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 1272
+;QUESTION
+yahoo.com. IN A
+;ANSWER
+yahoo.com. 1800 IN A 98.138.253.109
+yahoo.com. 1800 IN A 206.190.36.45
+yahoo.com. 1800 IN A 98.139.183.24
+;AUTHORITY
+yahoo.com. 172800 IN NS ns3.yahoo.com.
+yahoo.com. 172800 IN NS ns4.yahoo.com.
+yahoo.com. 172800 IN NS ns5.yahoo.com.
+yahoo.com. 172800 IN NS ns6.yahoo.com.
+yahoo.com. 172800 IN NS ns2.yahoo.com.
+yahoo.com. 172800 IN NS ns1.yahoo.com.
+;ADDITIONAL
+ns1.yahoo.com. 1209600 IN A 68.180.131.16
+ns1.yahoo.com. 86400 IN AAAA 2001:4998:130::1001
+ns2.yahoo.com. 1209600 IN A 68.142.255.16
+ns2.yahoo.com. 86400 IN AAAA 2001:4998:140::1002
+ns3.yahoo.com. 1209600 IN A 203.84.221.53
+ns3.yahoo.com. 86400 IN AAAA 2406:8600:b8:fe03::1003
+ns4.yahoo.com. 1209600 IN A 98.138.11.157
+ns5.yahoo.com. 1209600 IN A 119.160.247.124
+ns6.yahoo.com. 172800 IN A 121.101.144.139
+ns6.yahoo.com. 1800 IN AAAA 2406:2000:108:4::1006
+
+_____________________________________________________
+
+*** QUERY yahoo.com for RRType A
+*** FINAL RESPONSE found with latency  0.041117191314697266
+
+id 28606
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 1272
+;QUESTION
+yahoo.com. IN A
+;ANSWER
+yahoo.com. 1800 IN A 98.139.183.24
+yahoo.com. 1800 IN A 206.190.36.45
+yahoo.com. 1800 IN A 98.138.253.109
+;AUTHORITY
+yahoo.com. 172800 IN NS ns3.yahoo.com.
+yahoo.com. 172800 IN NS ns6.yahoo.com.
+yahoo.com. 172800 IN NS ns4.yahoo.com.
+yahoo.com. 172800 IN NS ns2.yahoo.com.
+yahoo.com. 172800 IN NS ns1.yahoo.com.
+yahoo.com. 172800 IN NS ns5.yahoo.com.
+;ADDITIONAL
+ns1.yahoo.com. 1209600 IN A 68.180.131.16
+ns1.yahoo.com. 86400 IN AAAA 2001:4998:130::1001
+ns2.yahoo.com. 1209600 IN A 68.142.255.16
+ns2.yahoo.com. 86400 IN AAAA 2001:4998:140::1002
+ns3.yahoo.com. 1209600 IN A 203.84.221.53
+ns3.yahoo.com. 86400 IN AAAA 2406:8600:b8:fe03::1003
+ns4.yahoo.com. 1209600 IN A 98.138.11.157
+ns5.yahoo.com. 1209600 IN A 119.160.247.124
+ns6.yahoo.com. 172800 IN A 121.101.144.139
+ns6.yahoo.com. 1800 IN AAAA 2406:2000:108:4::1006
+
+***************************************************
+
+COMMAND:  resolve www.secure64.com A
+
+*** NS records fetched from cache: ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'www.secure64.com' 'A'
+*** Response received with latency:  0.08322739601135254
+id 60595
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.secure64.com. IN A
+;ANSWER
+;AUTHORITY
+secure64.com. 172800 IN NS ns1.secure64.com.
+secure64.com. 172800 IN NS ns2.secure64.com.
+secure64.com. 86400 IN DS 15570 7 1 8ff3ebad7a6ca3e1023de05394ede4fbe524fe5b
+secure64.com. 86400 IN DS 15570 7 2 3357c094f116e7fe51225c761a8af1d49121df6a974c90926519fb7185d7db72
+secure64.com. 86400 IN DS 7668 7 1 d1ceab6979da9707f211bbcc6f52fac6e5446a8e
+secure64.com. 86400 IN DS 7668 7 2 f92ae2de22a6e8db3199d7f1debe0063e26134b1b21f22418a796fcf84520264
+secure64.com. 86400 IN RRSIG DS 8 2 86400 20151127054335 20151120043335 51797 com. aM+LlgQzFIUF+Vn5RSTaLTP46I0CJWQn YqCbstSzoQVILO8+6f1SKOuC4V1fL1o3 17WHdjc6jmXHMolcmy36CP76YbzG3Cev S699OMLfX67cgSUZVr9qibsSXdWNrL8D vbT0cCIZhwf0bd2zzvZB7Y/rRQwtUbRX 8ULu0NeF9lI=
+;ADDITIONAL
+ns1.secure64.com. 172800 IN A 64.92.220.221
+ns2.secure64.com. 172800 IN A 216.17.193.194
+
+*** Start next iteration with domain 'secure64.com.' nameservers ['ns1.secure64.com.', 'ns2.secure64.com.']
+*** Nameserver 'ns1.secure64.com.' has IP addresses ['64.92.220.221']:
+*** QUERY name server 'ns1.secure64.com.' at 64.92.220.221 for 'www.secure64.com' 'A'
+*** Response received with latency:  0.011031150817871094
+id 43294
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.secure64.com. IN A
+;ANSWER
+www.secure64.com. 3600 IN A 66.94.38.220
+www.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. EtkDANo7Z+W/q1V4QhLtGn5qQtPHxb13 kJ6RcQlDKPK+l/RHCjKZmSSstNjNiRGC G4Lg5V04rddnHR9irBTidPN5KnxiXGL+ mrqgQ2z/dvBxI4V03luNVoDjpnmysp2x OkRJTmJuZVYpE8psH4YoeNY8Q6r5pilP 1UJQgHsfnDk=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+_____________________________________________________
+
+*** QUERY www.secure64.com for RRType A
+*** FINAL RESPONSE found with latency  0.014539718627929688
+
+id 61627
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.secure64.com. IN A
+;ANSWER
+www.secure64.com. 3600 IN A 66.94.38.220
+www.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. EtkDANo7Z+W/q1V4QhLtGn5qQtPHxb13 kJ6RcQlDKPK+l/RHCjKZmSSstNjNiRGC G4Lg5V04rddnHR9irBTidPN5KnxiXGL+ mrqgQ2z/dvBxI4V03luNVoDjpnmysp2x OkRJTmJuZVYpE8psH4YoeNY8Q6r5pilP 1UJQgHsfnDk=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+***************************************************
+
+COMMAND:  resolve www.secure64.com A
+
+*** QUERY www.secure64.com for RRType A
+*** Answer found in Cache
+*** FINAL RESPONSE found with latency  0.0
+
+id 61627
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.secure64.com. IN A
+;ANSWER
+www.secure64.com. 3600 IN A 66.94.38.220
+www.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. EtkDANo7Z+W/q1V4QhLtGn5qQtPHxb13 kJ6RcQlDKPK+l/RHCjKZmSSstNjNiRGC G4Lg5V04rddnHR9irBTidPN5KnxiXGL+ mrqgQ2z/dvBxI4V03luNVoDjpnmysp2x OkRJTmJuZVYpE8psH4YoeNY8Q6r5pilP 1UJQgHsfnDk=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+***************************************************
+
+COMMAND:  resolve www.secure64.com AAAA
+
+*** NS records fetched from cache: ['ns1.secure64.com.', 'ns2.secure64.com.']
+*** Nameserver 'ns1.secure64.com.' has IP addresses ['64.92.220.221']:
+*** QUERY name server 'ns1.secure64.com.' at 64.92.220.221 for 'www.secure64.com' 'AAAA'
+*** Response received with latency:  0.010026931762695312
+id 22807
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.secure64.com. IN AAAA
+;ANSWER
+;AUTHORITY
+secure64.com. 600 IN SOA ns1.secure64.com. hostmaster.secure64.com. 2015111012 14400 3600 604800 600
+secure64.com. 3600 IN RRSIG SOA 7 2 3600 20151129100033 20151122090033 23028 secure64.com. ZjULgO3+Zbr8FbUWbVCVZBRg0Pl7q+sO o16Yiuw6pAJ//RfBRaVis+K0Oa7XFXwr +9sCJMXpnKJ28bE/rYUjkmAu9+3g8alW dWH2Q+5hJpeaLqrYNOY/XXTlZiOkW9VR S+etL2yf8PyxDG7WmCVJFZbZD4EvmpYg 91SljFNK0fw=
+pv2g2ljre7upad75jd5mqih0aha8a4ff.secure64.com. 600 IN NSEC3 1 1 150 f10e32 pv6ia901s184b94oarhromal6pl2sqmr A RRSIG
+pv2g2ljre7upad75jd5mqih0aha8a4ff.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. W0JF+6lFjATJckWuDmszPwYdmdaeuMgC /+bWXRn75ouVjfIrhHc3mu+qp/upGcEZ FFeIUpBk/+M8VOR4X7BzgkW9/xNZt2nw 10YJgKM5BX1sakU84ip+o/pUio+XU/KN DxciNFyr30aow8OueTJq/ItQdxq8HrcQ xEyC5uSp4VE=
+;ADDITIONAL
+
+_____________________________________________________
+
+*** QUERY www.secure64.com for RRType AAAA
+*** FINAL RESPONSE found with latency  0.014037132263183594
+
+id 12895
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.secure64.com. IN AAAA
+;ANSWER
+;AUTHORITY
+secure64.com. 600 IN SOA ns1.secure64.com. hostmaster.secure64.com. 2015111012 14400 3600 604800 600
+secure64.com. 3600 IN RRSIG SOA 7 2 3600 20151129100033 20151122090033 23028 secure64.com. ZjULgO3+Zbr8FbUWbVCVZBRg0Pl7q+sO o16Yiuw6pAJ//RfBRaVis+K0Oa7XFXwr +9sCJMXpnKJ28bE/rYUjkmAu9+3g8alW dWH2Q+5hJpeaLqrYNOY/XXTlZiOkW9VR S+etL2yf8PyxDG7WmCVJFZbZD4EvmpYg 91SljFNK0fw=
+pv2g2ljre7upad75jd5mqih0aha8a4ff.secure64.com. 600 IN NSEC3 1 1 150 f10e32 pv6ia901s184b94oarhromal6pl2sqmr A RRSIG
+pv2g2ljre7upad75jd5mqih0aha8a4ff.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. W0JF+6lFjATJckWuDmszPwYdmdaeuMgC /+bWXRn75ouVjfIrhHc3mu+qp/upGcEZ FFeIUpBk/+M8VOR4X7BzgkW9/xNZt2nw 10YJgKM5BX1sakU84ip+o/pUio+XU/KN DxciNFyr30aow8OueTJq/ItQdxq8HrcQ xEyC5uSp4VE=
+;ADDITIONAL
+
+***************************************************
+
+COMMAND:  resolve nobody.secure64.com A
+
+*** NS records fetched from cache: ['ns1.secure64.com.', 'ns2.secure64.com.']
+*** Nameserver 'ns1.secure64.com.' has IP addresses ['64.92.220.221']:
+*** QUERY name server 'ns1.secure64.com.' at 64.92.220.221 for 'nobody.secure64.com' 'A'
+*** Response received with latency:  0.011029243469238281
+id 48248
+opcode QUERY
+rcode NXDOMAIN
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+nobody.secure64.com. IN A
+;ANSWER
+;AUTHORITY
+ke3om1bspkl7d2ce5ue2m65b6soepe2c.secure64.com. 600 IN NSEC3 1 1 150 f10e32 kenrll7gjcqlboq5cnhutdf9l3cjcdsp A RRSIG
+ke3om1bspkl7d2ce5ue2m65b6soepe2c.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. B4d2BhIoB/jsWd+8LFb4YFaviC3W1RXW E0RdA8b9T1ebf0dJlJsAuA23zDM0QStQ VRs8syd3J1zeQfhhmY3MLsIMzQSxgANA o39E2BFw5h8m25U/WjhtqwsYlR/6wjuw N2aKtG+ne4y/U9di9ZrbkDb/wNTHm3WJ j/hxwK1tsFA=
+sq26bklrolivre72efmcmh69c658b1ap.secure64.com. 600 IN NSEC3 1 1 150 f10e32 sq6u43hprgvfe54pqi6o4fce4hsbusdq A NS SOA MX TXT RRSIG DNSKEY NSEC3PARAM
+sq26bklrolivre72efmcmh69c658b1ap.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. RpZhHzbNQeDEhdhIBUzkOwZ+WY1S8Z2E Bd82ov5p9TPQtgsICc5T0/xaf/v2rfyV 8TMWpXtVVxsHCPKlPMO/tL+JXoW96CRC Wyc2Ux8zGOzwebBErmrmYGmbwumgFBkk 9nMlZ/W+Ehahr72AlFoVCCr7sOLTsWvj PSPjeSmJIkU=
+en8gjr07tugtbspntok3auqt9bajat6c.secure64.com. 600 IN NSEC3 1 1 150 f10e32 enheusfv61n7b2k1cl7jer5n7mdh88rn A RRSIG
+en8gjr07tugtbspntok3auqt9bajat6c.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. euuwRIRq49u7/9W1z/ZkEZEmqe1+oFbM wvGzQMrIaieJ0K+6QOJIkFjlTAgTWLB2 rS4SQuVlnVrsRa9+tHeTF3DpkM18p3J1 y9cfD/3iGMaRMJChyw6ideq9Et6tFD3B 3mUeVjSJjvo2nL/oppWx7cxKa/ZU7tAE KhE13odXSOM=
+secure64.com. 600 IN SOA ns1.secure64.com. hostmaster.secure64.com. 2015111012 14400 3600 604800 600
+secure64.com. 3600 IN RRSIG SOA 7 2 3600 20151129100033 20151122090033 23028 secure64.com. ZjULgO3+Zbr8FbUWbVCVZBRg0Pl7q+sO o16Yiuw6pAJ//RfBRaVis+K0Oa7XFXwr +9sCJMXpnKJ28bE/rYUjkmAu9+3g8alW dWH2Q+5hJpeaLqrYNOY/XXTlZiOkW9VR S+etL2yf8PyxDG7WmCVJFZbZD4EvmpYg 91SljFNK0fw=
+;ADDITIONAL
+
+_____________________________________________________
+
+*** QUERY nobody.secure64.com for RRType A
+*** FINAL RESPONSE found with latency  0.015040159225463867
+
+id 22791
+opcode QUERY
+rcode NXDOMAIN
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+nobody.secure64.com. IN A
+;ANSWER
+;AUTHORITY
+ke3om1bspkl7d2ce5ue2m65b6soepe2c.secure64.com. 600 IN NSEC3 1 1 150 f10e32 kenrll7gjcqlboq5cnhutdf9l3cjcdsp A RRSIG
+ke3om1bspkl7d2ce5ue2m65b6soepe2c.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. B4d2BhIoB/jsWd+8LFb4YFaviC3W1RXW E0RdA8b9T1ebf0dJlJsAuA23zDM0QStQ VRs8syd3J1zeQfhhmY3MLsIMzQSxgANA o39E2BFw5h8m25U/WjhtqwsYlR/6wjuw N2aKtG+ne4y/U9di9ZrbkDb/wNTHm3WJ j/hxwK1tsFA=
+sq26bklrolivre72efmcmh69c658b1ap.secure64.com. 600 IN NSEC3 1 1 150 f10e32 sq6u43hprgvfe54pqi6o4fce4hsbusdq A NS SOA MX TXT RRSIG DNSKEY NSEC3PARAM
+sq26bklrolivre72efmcmh69c658b1ap.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. RpZhHzbNQeDEhdhIBUzkOwZ+WY1S8Z2E Bd82ov5p9TPQtgsICc5T0/xaf/v2rfyV 8TMWpXtVVxsHCPKlPMO/tL+JXoW96CRC Wyc2Ux8zGOzwebBErmrmYGmbwumgFBkk 9nMlZ/W+Ehahr72AlFoVCCr7sOLTsWvj PSPjeSmJIkU=
+en8gjr07tugtbspntok3auqt9bajat6c.secure64.com. 600 IN NSEC3 1 1 150 f10e32 enheusfv61n7b2k1cl7jer5n7mdh88rn A RRSIG
+en8gjr07tugtbspntok3auqt9bajat6c.secure64.com. 600 IN RRSIG NSEC3 7 3 600 20151129100033 20151122090033 23028 secure64.com. euuwRIRq49u7/9W1z/ZkEZEmqe1+oFbM wvGzQMrIaieJ0K+6QOJIkFjlTAgTWLB2 rS4SQuVlnVrsRa9+tHeTF3DpkM18p3J1 y9cfD/3iGMaRMJChyw6ideq9Et6tFD3B 3mUeVjSJjvo2nL/oppWx7cxKa/ZU7tAE KhE13odXSOM=
+secure64.com. 600 IN SOA ns1.secure64.com. hostmaster.secure64.com. 2015111012 14400 3600 604800 600
+secure64.com. 3600 IN RRSIG SOA 7 2 3600 20151129100033 20151122090033 23028 secure64.com. ZjULgO3+Zbr8FbUWbVCVZBRg0Pl7q+sO o16Yiuw6pAJ//RfBRaVis+K0Oa7XFXwr +9sCJMXpnKJ28bE/rYUjkmAu9+3g8alW dWH2Q+5hJpeaLqrYNOY/XXTlZiOkW9VR S+etL2yf8PyxDG7WmCVJFZbZD4EvmpYg 91SljFNK0fw=
+;ADDITIONAL
+
+***************************************************
+
+COMMAND:  resolve secure64.com TXT
+
+*** NS records fetched from cache: ['ns1.secure64.com.', 'ns2.secure64.com.']
+*** Nameserver 'ns1.secure64.com.' has IP addresses ['64.92.220.221']:
+*** QUERY name server 'ns1.secure64.com.' at 64.92.220.221 for 'secure64.com' 'TXT'
+*** Response received with latency:  0.01203155517578125
+id 31381
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+secure64.com. IN TXT
+;ANSWER
+secure64.com. 3600 IN TXT "v=spf1 ip4:64.92.221.180 ~all"
+secure64.com. 3600 IN RRSIG TXT 7 2 3600 20151129100033 20151122090033 23028 secure64.com. IchkIB+JD8Alsk66PXnH+K3n6GIjzC0E V2tFeJm0wW/Q6Ptpdzs447tntd/9PLfZ nMyiwF1ljhXMefe3WY5fyKyaT1BjlKB7 B9wCEbVmHKVw2ZpvYAneFzq/+iOV0Od2 f/3Ud/T53aoR8Ul97YsFJyieJ3DBYbnL nXzi+/b2SOM=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+_____________________________________________________
+
+*** QUERY secure64.com for RRType TXT
+*** FINAL RESPONSE found with latency  0.015041351318359375
+
+id 13704
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+secure64.com. IN TXT
+;ANSWER
+secure64.com. 3600 IN TXT "v=spf1 ip4:64.92.221.180 ~all"
+secure64.com. 3600 IN RRSIG TXT 7 2 3600 20151129100033 20151122090033 23028 secure64.com. IchkIB+JD8Alsk66PXnH+K3n6GIjzC0E V2tFeJm0wW/Q6Ptpdzs447tntd/9PLfZ nMyiwF1ljhXMefe3WY5fyKyaT1BjlKB7 B9wCEbVmHKVw2ZpvYAneFzq/+iOV0Od2 f/3Ud/T53aoR8Ul97YsFJyieJ3DBYbnL nXzi+/b2SOM=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+***************************************************
+
+COMMAND:  resolve secure64.com MX
+
+*** NS records fetched from cache: ['ns1.secure64.com.', 'ns2.secure64.com.']
+*** Nameserver 'ns1.secure64.com.' has IP addresses ['64.92.220.221']:
+*** QUERY name server 'ns1.secure64.com.' at 64.92.220.221 for 'secure64.com' 'MX'
+*** Response received with latency:  0.014539480209350586
+id 14968
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+secure64.com. IN MX
+;ANSWER
+secure64.com. 3600 IN MX 10 d62559a.ess.barracudanetworks.com.
+secure64.com. 3600 IN RRSIG MX 7 2 3600 20151129100033 20151122090033 23028 secure64.com. dnmzJKmMrWtksL9MEjiMAD8aPrv3kiU5 J3WuV75xlseFoG0zmKrcOb/gohBGk5Kj tMGg2Oiyo4UG2Qr+Liem71EJCoPXWUaG 1EGD84mO52/MIvJ3BiULTlcnjtr+o5n9 OWgYwqUdEVbmyy45bIb1C5SVBZpP2dAj ySSg+/kj5Js=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+_____________________________________________________
+
+*** QUERY secure64.com for RRType MX
+*** FINAL RESPONSE found with latency  0.01002645492553711
+
+id 30743
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+secure64.com. IN MX
+;ANSWER
+secure64.com. 3600 IN MX 10 d62559a.ess.barracudanetworks.com.
+secure64.com. 3600 IN RRSIG MX 7 2 3600 20151129100033 20151122090033 23028 secure64.com. dnmzJKmMrWtksL9MEjiMAD8aPrv3kiU5 J3WuV75xlseFoG0zmKrcOb/gohBGk5Kj tMGg2Oiyo4UG2Qr+Liem71EJCoPXWUaG 1EGD84mO52/MIvJ3BiULTlcnjtr+o5n9 OWgYwqUdEVbmyy45bIb1C5SVBZpP2dAj ySSg+/kj5Js=
+;AUTHORITY
+secure64.com. 3600 IN NS ns1.secure64.com.
+secure64.com. 3600 IN NS ns2.secure64.com.
+secure64.com. 3600 IN RRSIG NS 7 2 3600 20151129100033 20151122090033 23028 secure64.com. i5oyWaRLcaAxBchs5ADyGTtLnVLyHQwl z2IzIgv/XeufOoA2OHAXQ9DsR4WceBZT 6RHDYa1yg9G6GWGPYT8fON2kzQLbOETg IrxHgveSz6grexSIWNJr90vIRM2Sz297 eCUo9DRc/PVRlEuMgFJNzyR+uw0vvjui QfKEsn8BByE=
+;ADDITIONAL
+ns1.secure64.com. 3600 IN A 64.92.220.221
+ns1.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. LvOdNFdWGT0CLJqiaLr7NhpX621iwRMo t6GRi//1OiPP2A+AegF5UpMToSoJnZ1N idZMOi//76yb7JMj/VNFJCpdGyTSk2bt YcANCwvfW58uAcnIazPFUEmKdrwbEzik k36NXRmKhfPoTum8sWTODPETk1Oh/js/ 4FDAUHM9pJ0=
+ns2.secure64.com. 3600 IN A 216.17.193.194
+ns2.secure64.com. 3600 IN RRSIG A 7 3 3600 20151129100033 20151122090033 23028 secure64.com. PQXqNTjfCVX7mkPjdYj+10d1UeXOtRkE 0CAt7kNWTErm+kJIHheIrxV7rheogOx+ 00XXj415fLosrJgKVmWhG/NmjQFt9Sjl foC2ySKqPVvjq4Pt5VNpaKLDLV6KFnf4 FkVu+yi+mfPFtXaPJYhwflSSEbVa1C0B RhY/wsqB2UU=
+
+***************************************************
+
+COMMAND:  resolve www.cnn.com A
+
+*** NS records fetched from cache: ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'www.cnn.com' 'A'
+*** Response received with latency:  0.08522772789001465
+id 65344
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+www.cnn.com. IN A
+;ANSWER
+;AUTHORITY
+cnn.com. 172800 IN NS ns1.timewarner.net.
+cnn.com. 172800 IN NS ns3.timewarner.net.
+cnn.com. 172800 IN NS ns1.p42.dynect.net.
+cnn.com. 172800 IN NS ns2.p42.dynect.net.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - ck0q1gin43n1arrc9osm6qpqr81h5m9a NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128055322 20151121044322 51797 com. SRvG6Nj0BcSLMGN23BE97NyNZwFibaeE StAU/ZkOgv87IQWSWbDwkpA0oetpJ9Rk Ss20z/0JNMKwbLsZSkPGsgSf1eBYTEXz ZM9Gp7u0pQ7fR7p8o6ZJt/lcb0c0glZR VwbmGEBulL4wkpQgKt7A2tc04LR1p5jx 59oS0yl9rh8=
+FVT71LMDJ71M5N4BBJG7S42QT4H2K0VS.com. 86400 IN NSEC3 1 1 0 - fvt8070rvmmn14h33tu31073gpdt89uq NS DS RRSIG
+FVT71LMDJ71M5N4BBJG7S42QT4H2K0VS.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128052655 20151121041655 51797 com. lGjSNKfVL+Zoi2fyB5R/utCBp7INwmHo p8WwafjQpsdrpjTZZ27tBg+QgyyJjMw3 K5/KjpkoW6883Jo1P8Kv1gAcmugtqhXy U2eGL2DAvOAcxAnC54otizhjSn98EECb kr+G+/paPKg5FwZyenNl24LP2kXE5WIJ xgQEKIMvP6I=
+;ADDITIONAL
+ns1.timewarner.net. 172800 IN A 204.74.108.238
+ns3.timewarner.net. 172800 IN A 199.7.68.238
+ns1.p42.dynect.net. 172800 IN A 208.78.70.42
+ns2.p42.dynect.net. 172800 IN A 204.13.250.42
+
+*** Start next iteration with domain 'cnn.com.' nameservers ['ns1.timewarner.net.', 'ns3.timewarner.net.', 'ns1.p42.dynect.net.', 'ns2.p42.dynect.net.']
+*** Nameserver 'ns1.timewarner.net.' has IP addresses ['204.74.108.238']:
+*** QUERY name server 'ns1.timewarner.net.' at 204.74.108.238 for 'www.cnn.com' 'A'
+*** Response received with latency:  0.011531591415405273
+id 9909
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 65235
+;QUESTION
+www.cnn.com. IN A
+;ANSWER
+www.cnn.com. 300 IN CNAME turner.map.fastly.net.
+;AUTHORITY
+;ADDITIONAL
+
+*** Chase CNAME
+*** NS records fetched from cache: ['j.root-servers.net.', 'd.root-servers.net.', 'e.root-servers.net.', 'f.root-servers.net.', 'l.root-servers.net.', 'a.root-servers.net.', 'b.root-servers.net.', 'i.root-servers.net.', 'm.root-servers.net.', 'c.root-servers.net.', 'g.root-servers.net.', 'k.root-servers.net.', 'h.root-servers.net.']
+*** Nameserver 'j.root-servers.net.' has IP addresses ['192.58.128.30']:
+*** QUERY name server 'j.root-servers.net.' at 192.58.128.30 for 'turner.map.fastly.net.' 'A'
+*** Response received with latency:  0.06517338752746582
+id 45892
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 1472
+;QUESTION
+turner.map.fastly.net. IN A
+;ANSWER
+;AUTHORITY
+net. 172800 IN NS a.gtld-servers.net.
+net. 172800 IN NS b.gtld-servers.net.
+net. 172800 IN NS c.gtld-servers.net.
+net. 172800 IN NS d.gtld-servers.net.
+net. 172800 IN NS e.gtld-servers.net.
+net. 172800 IN NS f.gtld-servers.net.
+net. 172800 IN NS g.gtld-servers.net.
+net. 172800 IN NS h.gtld-servers.net.
+net. 172800 IN NS i.gtld-servers.net.
+net. 172800 IN NS j.gtld-servers.net.
+net. 172800 IN NS k.gtld-servers.net.
+net. 172800 IN NS l.gtld-servers.net.
+net. 172800 IN NS m.gtld-servers.net.
+net. 86400 IN DS 35886 8 2 7862b27f5f516ebe19680444d4ce5e762981931842c465f00236401d8bd973ee
+net. 86400 IN RRSIG DS 8 1 86400 20151202170000 20151122160000 62530 . Tkk30N+CFB5QxwiWTsfFxyPM0itYXcMG epdbOCfPv8dDHrhY7BuNgrlTTUEvyKL/ NFsWUG4R8xle5hLWhlLVMFA5u7JccrQQ MInKE6465br5JzLNELnQexTT6MJcZgex QP1571GkiHyWDg71XJ7Ff8tnc8nd/FN8 LoKM/yLG0iI=
+;ADDITIONAL
+a.gtld-servers.net. 172800 IN A 192.5.6.30
+b.gtld-servers.net. 172800 IN A 192.33.14.30
+c.gtld-servers.net. 172800 IN A 192.26.92.30
+d.gtld-servers.net. 172800 IN A 192.31.80.30
+e.gtld-servers.net. 172800 IN A 192.12.94.30
+f.gtld-servers.net. 172800 IN A 192.35.51.30
+g.gtld-servers.net. 172800 IN A 192.42.93.30
+h.gtld-servers.net. 172800 IN A 192.54.112.30
+i.gtld-servers.net. 172800 IN A 192.43.172.30
+j.gtld-servers.net. 172800 IN A 192.48.79.30
+k.gtld-servers.net. 172800 IN A 192.52.178.30
+l.gtld-servers.net. 172800 IN A 192.41.162.30
+m.gtld-servers.net. 172800 IN A 192.55.83.30
+a.gtld-servers.net. 172800 IN AAAA 2001:503:a83e::2:30
+b.gtld-servers.net. 172800 IN AAAA 2001:503:231d::2:30
+
+*** Start next iteration with domain 'net.' nameservers ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'turner.map.fastly.net.' 'A'
+*** Response received with latency:  0.05113816261291504
+id 15951
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+turner.map.fastly.net. IN A
+;ANSWER
+;AUTHORITY
+fastly.net. 172800 IN NS ns1.p04.dynect.net.
+fastly.net. 172800 IN NS ns3.p04.dynect.net.
+fastly.net. 172800 IN NS ns2.p04.dynect.net.
+fastly.net. 172800 IN NS ns4.p04.dynect.net.
+A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. 86400 IN NSEC3 1 1 0 - a1ruuffjkct2q54p78f8ejgj8jbk7i8b NS SOA RRSIG DNSKEY NSEC3PARAM
+A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. 86400 IN RRSIG NSEC3 8 2 86400 20151128061048 20151121050048 37703 net. PMTYW/zRjqDWcEWYWiP+TF0LntGq8hCE PaPWBvB/Xlspk6HPpvoJ6goxfOVcaesr MLcjRxsgM8oq5SmPu1qAtHQrudgTyy0l 0q7h+UuGbZTFWYtmbCqRb+NHWCadqsQz BQNgjh4YDNB696el8GXAYbsSo4457yR6 2OWNQTFb5cM=
+AP1UQVEE3B7Q9OKM1F1UC6DRCTSUHETP.net. 86400 IN NSEC3 1 1 0 - ap2m7ndeo91a3dem6a6i602b2aeo284f NS DS RRSIG
+AP1UQVEE3B7Q9OKM1F1UC6DRCTSUHETP.net. 86400 IN RRSIG NSEC3 8 2 86400 20151128060621 20151121045621 37703 net. a0da2O8oxexGOufjQFHV2ekQ345byhWl NSJTyDBgLquiV008z+SHK0b6exYO2fpg Ox0VEx7Y5RTLjUilJvIxCPNx1puxsvtd BMoQEq85ynyAxLJ03FhNH0/tFQkDiSvZ dqWHjc7WWTBqdOy4UlcaW+pC9WGIKgLF Sw26Q85jZyc=
+;ADDITIONAL
+ns1.p04.dynect.net. 172800 IN A 208.78.70.4
+ns3.p04.dynect.net. 172800 IN A 208.78.71.4
+ns2.p04.dynect.net. 172800 IN A 204.13.250.4
+ns4.p04.dynect.net. 172800 IN A 204.13.251.4
+
+*** Start next iteration with domain 'fastly.net.' nameservers ['ns1.p04.dynect.net.', 'ns3.p04.dynect.net.', 'ns2.p04.dynect.net.', 'ns4.p04.dynect.net.']
+*** Nameserver 'ns1.p04.dynect.net.' has IP addresses ['208.78.70.4']:
+*** QUERY name server 'ns1.p04.dynect.net.' at 208.78.70.4 for 'turner.map.fastly.net.' 'A'
+*** Response received with latency:  0.036095619201660156
+id 57516
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+turner.map.fastly.net. IN A
+;ANSWER
+turner.map.fastly.net. 30 IN A 199.27.79.73
+;AUTHORITY
+fastly.net. 86400 IN NS ns4.p04.dynect.net.
+fastly.net. 86400 IN NS ns2.p04.dynect.net.
+fastly.net. 86400 IN NS ns3.p04.dynect.net.
+fastly.net. 86400 IN NS ns1.p04.dynect.net.
+;ADDITIONAL
+
+_____________________________________________________
+
+*** QUERY turner.map.fastly.net. for RRType A
+*** FINAL RESPONSE found with latency  0.035094499588012695
+
+id 15396
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+turner.map.fastly.net. IN A
+;ANSWER
+turner.map.fastly.net. 30 IN A 199.27.79.73
+;AUTHORITY
+fastly.net. 86400 IN NS ns2.p04.dynect.net.
+fastly.net. 86400 IN NS ns1.p04.dynect.net.
+fastly.net. 86400 IN NS ns4.p04.dynect.net.
+fastly.net. 86400 IN NS ns3.p04.dynect.net.
+;ADDITIONAL
+
+***************************************************
+
+COMMAND:  resolve www.cnn.com A
+
+*** NS records fetched from cache: ['ns1.timewarner.net.', 'ns3.timewarner.net.', 'ns1.p42.dynect.net.', 'ns2.p42.dynect.net.']
+*** Nameserver 'ns1.timewarner.net.' has IP addresses ['204.74.108.238']:
+*** QUERY name server 'ns1.timewarner.net.' at 204.74.108.238 for 'www.cnn.com' 'A'
+*** Response received with latency:  0.008523702621459961
+id 8470
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 65235
+;QUESTION
+www.cnn.com. IN A
+;ANSWER
+www.cnn.com. 300 IN CNAME turner.map.fastly.net.
+;AUTHORITY
+;ADDITIONAL
+
+*** Chase CNAME
+*** QUERY turner.map.fastly.net. for RRType A
+*** Answer found in Cache
+*** FINAL RESPONSE found with latency  0.0
+
+id 15396
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+turner.map.fastly.net. IN A
+;ANSWER
+turner.map.fastly.net. 30 IN A 199.27.79.73
+;AUTHORITY
+fastly.net. 86400 IN NS ns2.p04.dynect.net.
+fastly.net. 86400 IN NS ns1.p04.dynect.net.
+fastly.net. 86400 IN NS ns4.p04.dynect.net.
+fastly.net. 86400 IN NS ns3.p04.dynect.net.
+;ADDITIONAL
+
+***************************************************
+
+COMMAND:  resolve android.g5e.com A
+
+*** NS records fetched from cache: ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'android.g5e.com' 'A'
+*** Response received with latency:  0.08572912216186523
+id 6397
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+android.g5e.com. IN A
+;ANSWER
+;AUTHORITY
+g5e.com. 172800 IN NS pdns01.domaincontrol.com.
+g5e.com. 172800 IN NS pdns02.domaincontrol.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - ck0q1gin43n1arrc9osm6qpqr81h5m9a NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128055322 20151121044322 51797 com. SRvG6Nj0BcSLMGN23BE97NyNZwFibaeE StAU/ZkOgv87IQWSWbDwkpA0oetpJ9Rk Ss20z/0JNMKwbLsZSkPGsgSf1eBYTEXz ZM9Gp7u0pQ7fR7p8o6ZJt/lcb0c0glZR VwbmGEBulL4wkpQgKt7A2tc04LR1p5jx 59oS0yl9rh8=
+OVKI1S6OFML3Q18K5PPI9NVP9IS260D3.com. 86400 IN NSEC3 1 1 0 - ovkj9vkbmtlu7u046inv54ae1pp5hpre NS DS RRSIG
+OVKI1S6OFML3Q18K5PPI9NVP9IS260D3.com. 86400 IN RRSIG NSEC3 8 2 86400 20151126232802 20151119221802 51797 com. YsPyvqb9po52iuQYJqI08jwAy9aw7ops fadLf4Q/lwIPm+B0YlBDOkK5xCtLvXwQ mJMGTRd93GM99Ikog6H+qFBmRO1X5ugz 3iXfkNZsyIKEe4Zxs8ghNqXMtgELHm+n A8F8LlAON32t7GogTdBf6BAmi4LX6HkB kaDWhs7sV7I=
+;ADDITIONAL
+pdns01.domaincontrol.com. 172800 IN A 216.69.185.50
+pdns02.domaincontrol.com. 172800 IN A 208.109.255.50
+
+*** Start next iteration with domain 'g5e.com.' nameservers ['pdns01.domaincontrol.com.', 'pdns02.domaincontrol.com.']
+*** Nameserver 'pdns01.domaincontrol.com.' has IP addresses ['216.69.185.50']:
+*** QUERY name server 'pdns01.domaincontrol.com.' at 216.69.185.50 for 'android.g5e.com' 'A'
+*** Response received with latency:  0.043616533279418945
+id 42727
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+android.g5e.com. IN A
+;ANSWER
+android.g5e.com. 3600 IN CNAME 79.geo.dnska.com.
+;AUTHORITY
+;ADDITIONAL
+
+*** Chase CNAME
+*** NS records fetched from cache: ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for '79.geo.dnska.com.' 'A'
+*** Response received with latency:  0.0731968879699707
+id 52727
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+79.geo.dnska.com. IN A
+;ANSWER
+;AUTHORITY
+dnska.com. 172800 IN NS ns1.dnska.com.
+dnska.com. 172800 IN NS ns2.dnska.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - ck0q1gin43n1arrc9osm6qpqr81h5m9a NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128055322 20151121044322 51797 com. SRvG6Nj0BcSLMGN23BE97NyNZwFibaeE StAU/ZkOgv87IQWSWbDwkpA0oetpJ9Rk Ss20z/0JNMKwbLsZSkPGsgSf1eBYTEXz ZM9Gp7u0pQ7fR7p8o6ZJt/lcb0c0glZR VwbmGEBulL4wkpQgKt7A2tc04LR1p5jx 59oS0yl9rh8=
+3BHFI2BEDVFPUOLB2BE34L7HHF09LJRI.com. 86400 IN NSEC3 1 1 0 - 3bhidete52pkt85fnc9n9c9cee2kacuc NS DS RRSIG
+3BHFI2BEDVFPUOLB2BE34L7HHF09LJRI.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128224949 20151121213949 51797 com. RAvCqdmioNRG8JBuBZBGutombHtSqA+a NJlBc13MPTvpw5DiQBYDzUublGQpLzJL m0X441FfFc08hqfjDAr0sFJnQEJnf7db SpmYhEJmLvl/hW2AcJGt+lnTtE+jr702 76KE9AQq8OVmmHJOVXCwTKmruAnfzhHi rgNwoyy0XFI=
+;ADDITIONAL
+ns1.dnska.com. 172800 IN A 68.168.210.126
+ns2.dnska.com. 172800 IN A 91.224.141.100
+
+*** Start next iteration with domain 'dnska.com.' nameservers ['ns1.dnska.com.', 'ns2.dnska.com.']
+*** Nameserver 'ns1.dnska.com.' has IP addresses ['68.168.210.126']:
+*** QUERY name server 'ns1.dnska.com.' at 68.168.210.126 for '79.geo.dnska.com.' 'A'
+*** Response received with latency:  0.062165260314941406
+id 16207
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 2800
+;QUESTION
+79.geo.dnska.com. IN A
+;ANSWER
+79.geo.dnska.com. 0 IN CNAME pool-79.dnscluster.dnska.com.
+pool-79.dnscluster.dnska.com. 0 IN A 23.239.114.114
+pool-79.dnscluster.dnska.com. 0 IN A 192.200.106.171
+;AUTHORITY
+;ADDITIONAL
+
+*** Chase CNAME
+*** NS records fetched from cache: ['ns1.dnska.com.', 'ns2.dnska.com.']
+*** Nameserver 'ns1.dnska.com.' has IP addresses ['68.168.210.126']:
+*** QUERY name server 'ns1.dnska.com.' at 68.168.210.126 for 'pool-79.dnscluster.dnska.com.' 'A'
+*** Response received with latency:  0.06316971778869629
+id 4322
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 2800
+;QUESTION
+pool-79.dnscluster.dnska.com. IN A
+;ANSWER
+pool-79.dnscluster.dnska.com. 0 IN A 192.200.106.171
+pool-79.dnscluster.dnska.com. 0 IN A 23.239.114.114
+;AUTHORITY
+;ADDITIONAL
+
+_____________________________________________________
+
+*** QUERY pool-79.dnscluster.dnska.com. for RRType A
+*** FINAL RESPONSE found with latency  0.0626680850982666
+
+id 35115
+opcode QUERY
+rcode NOERROR
+flags QR AA RD
+edns 0
+eflags DO
+payload 2800
+;QUESTION
+pool-79.dnscluster.dnska.com. IN A
+;ANSWER
+pool-79.dnscluster.dnska.com. 0 IN A 192.200.106.171
+pool-79.dnscluster.dnska.com. 0 IN A 23.239.114.114
+;AUTHORITY
+;ADDITIONAL
+
+***************************************************
+
+COMMAND:  resolve gmal.com A
+
+*** NS records fetched from cache: ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'gmal.com' 'A'
+*** Response received with latency:  0.08522772789001465
+id 9949
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+gmal.com. IN A
+;ANSWER
+;AUTHORITY
+gmal.com. 172800 IN NS ns2.google.com.
+gmal.com. 172800 IN NS ns1.google.com.
+gmal.com. 172800 IN NS ns3.google.com.
+gmal.com. 172800 IN NS ns4.google.com.
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN NSEC3 1 1 0 - ck0q1gin43n1arrc9osm6qpqr81h5m9a NS SOA RRSIG DNSKEY NSEC3PARAM
+CK0POJMG874LJREF7EFN8430QVIT8BSM.com. 86400 IN RRSIG NSEC3 8 2 86400 20151128055322 20151121044322 51797 com. SRvG6Nj0BcSLMGN23BE97NyNZwFibaeE StAU/ZkOgv87IQWSWbDwkpA0oetpJ9Rk Ss20z/0JNMKwbLsZSkPGsgSf1eBYTEXz ZM9Gp7u0pQ7fR7p8o6ZJt/lcb0c0glZR VwbmGEBulL4wkpQgKt7A2tc04LR1p5jx 59oS0yl9rh8=
+7FODA1DRH400CG23D6ELIEO33VIURMCD.com. 86400 IN NSEC3 1 1 0 - 7fojeenod29ooplv8mtjet43gee8gjpa NS DS RRSIG
+7FODA1DRH400CG23D6ELIEO33VIURMCD.com. 86400 IN RRSIG NSEC3 8 2 86400 20151126052749 20151119041749 51797 com. CLj3fVQ6E8tujVtfMDFThnEMRZXgRJIa NUkvnqV8kGVFopzE3Ii3fjgWbiV+aqIS 39dhve+h2Ox/OydwUKa6jP+8DTxfSWv+ v5GfY3ZVSr33VR+/Qp3qWUZTPgH7itxt 1keeGV39t7HILtBr9ycoqqNKyc71U72b 1okFR5GKGuE=
+;ADDITIONAL
+ns2.google.com. 172800 IN A 216.239.34.10
+ns1.google.com. 172800 IN A 216.239.32.10
+ns3.google.com. 172800 IN A 216.239.36.10
+ns4.google.com. 172800 IN A 216.239.38.10
+
+*** Start next iteration with domain 'gmal.com.' nameservers ['ns2.google.com.', 'ns1.google.com.', 'ns3.google.com.', 'ns4.google.com.']
+*** Nameserver 'ns2.google.com.' has IP addresses ['216.239.34.10']:
+*** QUERY name server 'ns2.google.com.' at 216.239.34.10 for 'gmal.com' 'A'
+*** Response received with latency:  0.02957940101623535
+id 37701
+opcode QUERY
+rcode REFUSED
+flags QR RD
+;QUESTION
+gmal.com. IN A
+;ANSWER
+;AUTHORITY
+;ADDITIONAL
+
+_____________________________________________________
+
+*** QUERY gmal.com for RRType A
+*** FINAL RESPONSE found with latency  0.031082630157470703
+
+id 21702
+opcode QUERY
+rcode REFUSED
+flags QR RD
+;QUESTION
+gmal.com. IN A
+;ANSWER
+;AUTHORITY
+;ADDITIONAL
+
+***************************************************
+
+COMMAND:  resolve cotssl.net A
+
+*** NS records fetched from cache: ['a.gtld-servers.net.', 'b.gtld-servers.net.', 'c.gtld-servers.net.', 'd.gtld-servers.net.', 'e.gtld-servers.net.', 'f.gtld-servers.net.', 'g.gtld-servers.net.', 'h.gtld-servers.net.', 'i.gtld-servers.net.', 'j.gtld-servers.net.', 'k.gtld-servers.net.', 'l.gtld-servers.net.', 'm.gtld-servers.net.']
+*** Nameserver 'a.gtld-servers.net.' has IP addresses ['192.5.6.30']:
+*** QUERY name server 'a.gtld-servers.net.' at 192.5.6.30 for 'cotssl.net' 'A'
+*** Response received with latency:  0.07620453834533691
+id 17351
+opcode QUERY
+rcode NOERROR
+flags QR RD
+edns 0
+eflags DO
+payload 4096
+;QUESTION
+cotssl.net. IN A
+;ANSWER
+;AUTHORITY
+cotssl.net. 172800 IN NS dns11.cotdns.net.
+cotssl.net. 172800 IN NS dns12.cotdns.net.
+A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. 86400 IN NSEC3 1 1 0 - a1ruuffjkct2q54p78f8ejgj8jbk7i8b NS SOA RRSIG DNSKEY NSEC3PARAM
+A1RT98BS5QGC9NFI51S9HCI47ULJG6JH.net. 86400 IN RRSIG NSEC3 8 2 86400 20151128061048 20151121050048 37703 net. PMTYW/zRjqDWcEWYWiP+TF0LntGq8hCE PaPWBvB/Xlspk6HPpvoJ6goxfOVcaesr MLcjRxsgM8oq5SmPu1qAtHQrudgTyy0l 0q7h+UuGbZTFWYtmbCqRb+NHWCadqsQz BQNgjh4YDNB696el8GXAYbsSo4457yR6 2OWNQTFb5cM=
+IPF1QV8MINGLSELJL6QKQCRRLRK3V69O.net. 86400 IN NSEC3 1 1 0 - iphegaeqr618mdtegaepsof9knn0gd3u NS DS RRSIG
+IPF1QV8MINGLSELJL6QKQCRRLRK3V69O.net. 86400 IN RRSIG NSEC3 8 2 86400 20151127061237 20151120050237 37703 net. jew14+u4HI3i7PPoro++oLqAD/0XB45k h27JG/rlvzIA2mESv8PFh9D2yaWqpfLD BchvEQDrCLZTPxIr+9t1Bp/wJdg74p8F YYRg8spUjbZ0olsFsrS9aLAvqKyeQ4t9 thb7Y5b0acMVVFc3/rDFK3ATjNr8QOjb 8FTHnfeUmsc=
+;ADDITIONAL
+dns11.cotdns.net. 172800 IN A 208.93.136.11
+dns12.cotdns.net. 172800 IN A 208.93.136.12
+
+*** Start next iteration with domain 'cotssl.net.' nameservers ['dns11.cotdns.net.', 'dns12.cotdns.net.']
+*** Nameserver 'dns11.cotdns.net.' has IP addresses ['208.93.136.11']:
+*** QUERY name server 'dns11.cotdns.net.' at 208.93.136.11 for 'cotssl.net' 'A'

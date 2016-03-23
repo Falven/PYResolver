@@ -1,0 +1,15 @@
+print cache
+resolve yahoo.com A
+resolve www.secure64.com A
+resolve www.secure64.com A
+resolve www.secure64.com AAAA
+resolve nobody.secure64.com A
+resolve secure64.com TXT
+resolve secure64.com MX
+resolve www.cnn.com A
+resolve www.cnn.com A
+resolve android.g5e.com A
+resolve gmal.com A
+resolve cotssl.net A
+print cache
+quit
